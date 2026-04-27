@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+
+  --color-ivory: #FDFCF0;
+  --color-beige: #D9C5B2;
+  --color-sand: #E5E1D8;
+  --color-brown-soft: #7D6B5D;
+  --color-charcoal: #1A1A1A;
+  --color-gold: #C5A059;
+  --color-gold-hover: #b08d4b;
+}
+
+body {
+  background-color: theme('colors.ivory');
+  color: theme('colors.charcoal');
+  font-family: theme('fontFamily.sans');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: theme('fontFamily.serif');
+}
+
+/* Custom horizontal line */
+.divider {
+  height: 1px;
+  background-color: theme('colors.sand');
+  width: 100%;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
