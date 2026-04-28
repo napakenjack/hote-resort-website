@@ -12,7 +12,7 @@ export function RoomsPage() {
     <div className="bg-ivory pb-24">
       {/* Page Hero */}
       <div className="relative pt-32 pb-20 px-4 bg-charcoal text-center overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=2000')] opacity-20 bg-cover bg-center mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://plus.unsplash.com/premium_photo-1661879252375-7c1db1932572?q=80&w=1471&auto=format&fit=crop')] opacity-20 bg-cover bg-center mix-blend-overlay"></div>
         <div className="relative z-10">
           <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Номера</h1>
           <p className="text-white/80 max-w-2xl mx-auto text-lg mb-12">
