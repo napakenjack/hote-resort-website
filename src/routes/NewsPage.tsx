@@ -53,7 +53,7 @@ export function NewsPage() {
         {/* Highlighted */}
         <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col md:flex-row mb-16 group cursor-pointer hover:shadow-lg transition-all">
           <div className="md:w-1/2 relative overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=1200" alt="News" className="w-full h-full object-cover min-h-[300px] transition-transform duration-700 group-hover:scale-105" />
+             <img src="https://images.unsplash.com/photo-1665680674724-3a3b3368e036?q=80&w=1470&auto=format&fit=crop" alt="News" className="w-full h-full object-cover min-h-[300px] transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
              <span className="text-gold text-xs uppercase tracking-widest font-bold mb-4 block">Отель &bull; 01 Декабря 2026</span>
