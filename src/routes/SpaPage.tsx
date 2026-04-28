@@ -11,7 +11,7 @@ export function SpaPage() {
       duration: '60 мин',
       price: '25 000 ₸',
       desc: 'Глубокая проработка мышц, снятие напряжения и восстановление тонуса.',
-      img: 'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=800'
+      img: 'https://plus.unsplash.com/premium_photo-1661407350987-9e9319ac11e6?q=80&w=1470&auto=format&fit=crop'
     },
     {
       title: 'Стоун-терапия',
