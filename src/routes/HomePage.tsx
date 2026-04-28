@@ -141,7 +141,7 @@ export function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=400&h=400',
+              'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1374&auto=format&fit=crop',
               'https://images.unsplash.com/photo-1729003702131-51807464dcec?q=80&w=1470&auto=format&fit=crop',
               'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=400&h=400'
             ].map((img, i) => (
