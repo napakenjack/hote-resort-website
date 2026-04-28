@@ -13,7 +13,7 @@ export function GuidePage() {
       dist: '1.5 км',
       time: '20 мин пешком',
       desc: 'Один из крупнейших музеев Центральной Азии. Уникальные экспонаты истории и культуры.',
-      img: 'https://images.unsplash.com/photo-1572085313466-6710de8d7eba?auto=format&fit=crop&q=80&w=800'
+      img: 'https://sxodim.com/uploads/posts/2024/05/16/optimized/d1b0ad7b329125e329099fdad0dd31fc_1400x790-q-85.jpg'
     },
     {
       title: 'Монумент Байтерек',
@@ -21,7 +21,7 @@ export function GuidePage() {
       dist: '2.0 км',
       time: '5 мин на такси',
       desc: 'Символ Астаны со смотровой площадкой, откуда открывается панорамный вид на город.',
-      img: 'https://images.unsplash.com/photo-1582236371720-33b2ec62bde7?auto=format&fit=crop&q=80&w=800'
+      img: 'https://putidorogi-nn.ru/images/stories/aziya/kazahstan/bayterek_2.jpg'
     },
     {
       title: 'ТРЦ Хан Шатыр',
@@ -29,7 +29,7 @@ export function GuidePage() {
       dist: '3.5 км',
       time: '10 мин на такси',
       desc: 'Крупнейший торгово-развлекательный центр. Шопинг, искусственный пляж и развлечения.',
-      img: 'https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=800'
+      img: 'http://eurasia.travel/wp-content/uploads/2024/10/Khan-Shatyr-Shopping-Center-1024x683.jpg'
     },
     {
       title: 'Театр Оперы и Балета',
@@ -37,7 +37,7 @@ export function GuidePage() {
       dist: '1.0 км',
       time: '12 мин пешком',
       desc: 'Классические постановки и современные премьеры в великолепном здании с уникальной акустикой.',
-      img: 'https://images.unsplash.com/photo-1507676184212-d0330a156f95?auto=format&fit=crop&q=80&w=800'
+      img: 'https://amuzteatr.ru/wp-content/uploads/2016/05/%D0%9A%D0%BE%D0%BF%D0%B8%D1%8F-%D0%9A%D0%BE%D0%BF%D0%B8%D1%8F-basnik.org-0181-BASN8473.jpg'
     }
   ];
 
