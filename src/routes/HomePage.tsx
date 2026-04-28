@@ -113,7 +113,7 @@ export function HomePage() {
         {/* SPA */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1200" alt="SPA" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
+            <img src="https://plus.unsplash.com/premium_photo-1683121890199-1a40d156f316?q=80&w=1470&auto=format&fit=crop" alt="SPA" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
           </div>
           <div className="space-y-6">
             <h2 className="text-sm font-semibold tracking-widest uppercase text-gold">SPA & Wellness</h2>
@@ -142,7 +142,7 @@ export function HomePage() {
             {[
               'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400&h=400',
               'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=400&h=400',
+              'https://images.unsplash.com/photo-1729003702131-51807464dcec?q=80&w=1470&auto=format&fit=crop',
               'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=400&h=400'
             ].map((img, i) => (
               <div key={i} className="relative aspect-square group overflow-hidden bg-gray-100 cursor-pointer">
