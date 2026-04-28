@@ -106,7 +106,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=1200" alt="Restaurant" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1470&auto=format&fit=crop" alt="Restaurant" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
           </div>
         </div>
 
