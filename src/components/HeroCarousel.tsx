@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=2000&h=1000',
+    image: 'https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1920&auto=format&fit=crop',
     title: 'Комфортный отдых\nв сердце города',
     subtitle: 'Современные номера, ресторан, СПА и банкетный зал для вашего идеального пребывания.',
   },
