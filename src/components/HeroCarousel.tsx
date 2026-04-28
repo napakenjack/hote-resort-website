@@ -10,7 +10,7 @@ const slides = [
     subtitle: 'Современные номера, ресторан, СПА и банкетный зал для вашего идеального пребывания.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2000&h=1000',
+    image: 'https://images.unsplash.com/photo-1570560258879-af7f8e1447ac?q=80&w=1374&auto=format&fit=crop',
     title: 'Изысканная кухня\nи атмосфера',
     subtitle: 'Попробуйте авторские блюда в нашем ресторане с панорамным видом.',
   },
