@@ -59,8 +59,8 @@ export function RestaurantPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: 'Завтраки', img: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a82666?auto=format&fit=crop&q=80&w=600', time: '07:00 - 11:00' },
-              { title: 'Основное меню', img: 'https://images.unsplash.com/photo-1544025162-83b3e8e7a0d4?auto=format&fit=crop&q=80&w=600', time: '12:00 - 00:00' },
+              { title: 'Завтраки', img: 'https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?q=80&w=687&auto=format&fit=crop', time: '07:00 - 11:00' },
+              { title: 'Основное меню', img: 'https://images.unsplash.com/photo-1600015835779-c6b36ddeac1f?q=80&w=735&auto=format&fit=crop', time: '12:00 - 00:00' },
               { title: 'Десерты', img: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600', time: 'Весь день' },
               { title: 'Бар', img: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=600', time: 'Круглосуточно' },
             ].map(item => (
