@@ -18,7 +18,7 @@ export function NewsPage() {
       title: 'Открытие обновленного СПА комплекса',
       date: '02 Октября 2026',
       category: 'СПА',
-      img: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800',
+      img: 'https://images.unsplash.com/photo-1776763019146-c1d386b81e27?q=80&w=1470&auto=format&fit=crop',
       excerpt: 'Мы рады сообщить об открытии обновленной СПА-зоны. Теперь к вашим услугам новый хаммам, расширенная зона релаксации и новые программы ухода.'
     },
     {
