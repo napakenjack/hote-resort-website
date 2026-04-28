@@ -11,7 +11,7 @@ export function NewsPage() {
       title: 'Новое меню завтраков в нашем ресторане',
       date: '15 Сентября 2026',
       category: 'Ресторан',
-      img: 'https://images.unsplash.com/photo-1544025162-83b3e8e7a0d4?auto=format&fit=crop&q=80&w=800',
+      img: 'https://plus.unsplash.com/premium_photo-1723600945524-ac4d8ada5989?q=80&w=1280&auto=format&fit=crop',
       excerpt: 'Шеф-повар обновил меню завтраков. Теперь для гостей доступен расширенный выбор блюд здорового питания, свежей выпечки и авторских десертов.'
     },
     {
