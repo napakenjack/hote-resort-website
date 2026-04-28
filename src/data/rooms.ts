@@ -134,7 +134,7 @@ export const rooms: Room[] = [
     rating: 5.0,
     reviews: 12,
     images: [
-      'https://images.unsplash.com/photo-1576626884826-4306786c3e41?auto=format&fit=crop&q=80&w=1600&h=900',
+      'https://plus.unsplash.com/premium_photo-1663126298656-33616be83c32?q=80&w=1470&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800&h=600'
     ]
   }
