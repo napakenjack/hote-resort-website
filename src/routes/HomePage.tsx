@@ -26,7 +26,7 @@ export function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=1200" 
+              src="https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=735&auto=format&fit=crop" 
               alt="Hotel Exterior" 
               className="rounded-t-full w-full h-[600px] object-cover shadow-2xl"
             />
