@@ -42,7 +42,7 @@ export function BanquetPage() {
           <div className="grid grid-cols-2 gap-4">
              <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800" alt="Banquet" className="w-full h-full object-cover rounded-2xl" />
              <div className="flex flex-col gap-4">
-               <img src="https://images.unsplash.com/photo-1522030299830-16b8d3d049d5?auto=format&fit=crop&q=80&w=800" alt="Banquet Detail" className="w-full h-[200px] object-cover rounded-2xl" />
+               <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1796&auto=format&fit=crop" alt="Banquet Detail" className="w-full h-[200px] object-cover rounded-2xl" />
                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800" alt="Banquet Detail" className="w-full h-[250px] object-cover rounded-2xl" />
              </div>
           </div>
