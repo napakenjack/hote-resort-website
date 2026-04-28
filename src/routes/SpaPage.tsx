@@ -18,7 +18,7 @@ export function SpaPage() {
       duration: '90 мин',
       price: '35 000 ₸',
       desc: 'Расслабление теплыми камнями для гармонизации энергии.',
-      img: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800'
+      img: 'https://plus.unsplash.com/premium_photo-1683121892945-615aa0a35b28?q=80&w=687&auto=format&fit=crop'
     },
     {
       title: 'Уход за лицом',
@@ -88,11 +88,11 @@ export function SpaPage() {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {[
-              'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=400&h=400',
+              'https://plus.unsplash.com/premium_photo-1663011623747-25902f4697de?q=80&w=1470&auto=format&fit=crop',
+              'https://plus.unsplash.com/premium_photo-1733306500966-658fb6bf7151?q=80&w=1470&auto=format&fit=crop',
               'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=400&h=400',
               'https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=400&h=400',
+              'https://plus.unsplash.com/premium_photo-1681873742740-9a0e9eaa4584?q=80&w=687&auto=format&fit=crop',
               'https://plus.unsplash.com/premium_photo-1663100126765-1ad02ca4ff69?q=80&w=1470&auto=format&fit=crop'
             ].map((img, i) => (
               <div key={i} className="relative aspect-square group overflow-hidden bg-gray-100 cursor-pointer rounded-xl">
