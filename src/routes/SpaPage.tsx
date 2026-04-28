@@ -93,7 +93,7 @@ export function SpaPage() {
               'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=400&h=400',
               'https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=400&h=400',
               'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1554054668-2a144de63f25?auto=format&fit=crop&q=80&w=400&h=400'
+              'https://plus.unsplash.com/premium_photo-1663100126765-1ad02ca4ff69?q=80&w=1470&auto=format&fit=crop'
             ].map((img, i) => (
               <div key={i} className="relative aspect-square group overflow-hidden bg-gray-100 cursor-pointer rounded-xl">
                 <img src={img} alt="SPA Instagram" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
