@@ -1,16 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
   { name: 'Главная', path: '/' },
   { name: 'Номера', path: '/rooms' },
-  { name: 'Ресторан', path: '/restaurant' },
-  { name: 'Банкет', path: '/banquet' },
+  { name: 'Кофейня', path: '/cafe' },
   { name: 'СПА', path: '/spa' },
-  { name: 'Новости', path: '/news' },
   { name: 'Контакты', path: '/contacts' },
-  { name: 'Гид', path: '/guide' },
 ];
 
 export function Navbar() {
@@ -34,7 +31,7 @@ export function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
           <span className="font-sans font-bold text-2xl tracking-[2px] uppercase text-charcoal">
-            GRAND OASIS
+            ALSUN HOTEL
           </span>
         </Link>
 
@@ -53,6 +50,13 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
+          
+          <div className="flex items-center gap-3 ml-4 border-l border-sand pl-4">
+             <a href="https://wa.me/77000000000" aria-label="WhatsApp" className="text-charcoal hover:text-[#25D366] transition-colors"><MessageCircle size={18} /></a>
+             <a href="https://instagram.com/" aria-label="Instagram" className="text-charcoal hover:text-[#E1306C] transition-colors"><Instagram size={18} /></a>
+             <a href="https://facebook.com/" aria-label="Facebook" className="text-charcoal hover:text-[#1877F2] transition-colors"><Facebook size={18} /></a>
+          </div>
+
           <Link
             to="/rooms"
             className="ml-4 bg-gold hover:bg-gold-hover text-white px-6 py-3 rounded text-[13px] font-bold uppercase transition-colors"
@@ -97,6 +101,13 @@ export function Navbar() {
             {link.name}
           </Link>
         ))}
+        
+        <div className="flex items-center gap-6 mt-4">
+           <a href="https://wa.me/77000000000" aria-label="WhatsApp" className="text-white hover:text-[#25D366] transition-colors"><MessageCircle size={24} /></a>
+           <a href="https://instagram.com/" aria-label="Instagram" className="text-white hover:text-[#E1306C] transition-colors"><Instagram size={24} /></a>
+           <a href="https://facebook.com/" aria-label="Facebook" className="text-white hover:text-[#1877F2] transition-colors"><Facebook size={24} /></a>
+        </div>
+
         <Link
           to="/rooms"
           onClick={() => setIsOpen(false)}

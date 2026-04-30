@@ -26,11 +26,11 @@ export function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=735&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=1200" 
               alt="Hotel Exterior" 
-              className="rounded-t-full w-full h-[600px] object-cover shadow-2xl"
+              className="rounded-t-full w-full h-[600px] object-cover shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
             />
-            <div className="absolute -bottom-8 -right-8 bg-charcoal text-white p-8 rounded-full w-40 h-40 flex flex-col items-center justify-center text-center shadow-xl">
+            <div className="absolute -bottom-8 -right-8 bg-charcoal text-white p-8 rounded-full w-40 h-40 flex flex-col items-center justify-center text-center shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
               <span className="font-serif text-3xl text-gold mb-1">5</span>
               <span className="text-xs uppercase tracking-widest leading-tight">Звезд<br/>Уюта</span>
             </div>
@@ -41,10 +41,10 @@ export function HomePage() {
               Идеальное место для отдыха в центре событий
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Grand Hotel сочетает в себе элегантность классического стиля и современные технологии комфорта. Мы расположены в самом сердце города, в шаговой доступности от главных достопримечательностей.
+              ALSUN HOTEL сочетает в себе элегантность и современные технологии комфорта. Мы расположены в Астане, обеспечивая гостям уютную атмосферу и высокий уровень сервиса.
             </p>
-            <p className="text-gray-600 leading-relaxed">
-              К вашим услугам изысканные номера, ресторан авторской кухни, современный фитнес-центр и SPA-комплекс, где каждая деталь продумана для вашего безупречного отдыха.
+            <p className="text-[#666] leading-relaxed text-[13px]">
+              К вашим услугам светлые номера, кофейня со свежими завтраками и массажный кабинет с фитобочкой, где каждая деталь продумана для вашего отдыха.
             </p>
             
             <div className="grid grid-cols-2 gap-8 pt-4">
@@ -91,39 +91,42 @@ export function HomePage() {
 
       {/* Facilities Preview */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32">
-        {/* Restaurant */}
+        {/* Cafe */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 space-y-6">
-            <h2 className="text-sm font-semibold tracking-widest uppercase text-gold">Ресторан</h2>
-            <h3 className="font-serif text-4xl text-charcoal">Вкус, который запоминается</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Начните день с роскошного завтрака в формате "Шведский стол" или проведите незабываемый вечер, наслаждаясь авторскими блюдами от шеф-повара. Мы предлагаем сочетание местной и европейской кухни в элегантной атмосфере.
+            <h2 className="text-[10px] uppercase font-bold tracking-[1px] text-gold mb-2">Кофейня и завтраки</h2>
+            <h3 className="font-serif text-4xl text-charcoal">Свежий кофе каждый день</h3>
+            <p className="text-[#666] leading-relaxed text-[13px]">
+              Начните утро с идеальной чашки кофе и горячих завтраков. Наша уютная кофейня при отеле — это комфортное место для отдыха, встреч и работы. Мы предлагаем свежую выпечку и легкие блюда.
             </p>
-            <div className="pt-4">
-              <Link to="/restaurant" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-8 py-3 rounded-full uppercase tracking-wider text-xs font-semibold transition-colors">
-                Подробнее о ресторане
+            <div className="pt-4 flex flex-col sm:flex-row gap-4">
+              <Link to="/cafe" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-6 py-3 rounded uppercase text-[12px] font-bold transition-colors text-center">
+                Посмотреть кофейню
               </Link>
+              <a href="https://wa.me/77000000000" className="inline-block bg-[#25D366] hover:bg-[#20bd5a] text-white px-6 py-3 rounded uppercase text-[12px] font-bold transition-colors text-center">
+                 Написать в WhatsApp
+              </a>
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1470&auto=format&fit=crop" alt="Restaurant" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200" alt="Cafe" className="w-full h-[500px] object-cover rounded shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-sand" />
           </div>
         </div>
 
-        {/* SPA */}
+        {/* Massage */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <img src="https://plus.unsplash.com/premium_photo-1683121890199-1a40d156f316?q=80&w=1470&auto=format&fit=crop" alt="SPA" className="w-full h-[500px] object-cover rounded-2xl shadow-xl" />
+            <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=1200" alt="SPA" className="w-full h-[500px] object-cover rounded shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-sand" />
           </div>
           <div className="space-y-6">
-            <h2 className="text-sm font-semibold tracking-widest uppercase text-gold">SPA & Wellness</h2>
-            <h3 className="font-serif text-4xl text-charcoal">Симфония чувств</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Погрузитесь в атмосферу спокойствия и гармонии. Наши SPA-программы, различные виды массажа, сауна и хаммам помогут вам восстановить силы и отвлечься от городской суеты.
+            <h2 className="text-[10px] uppercase font-bold tracking-[1px] text-gold mb-2">СПА</h2>
+            <h3 className="font-serif text-4xl text-charcoal">Восстановление и покой</h3>
+            <p className="text-[#666] leading-relaxed text-[13px]">
+              Расслабляющий массаж, фито-бочка и пилинг для снятия усталости и восстановления после дороги. Погрузитесь в атмосферу спокойствия и гармонии в нашем СПА.
             </p>
-            <div className="pt-4">
-              <Link to="/spa" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-8 py-3 rounded-full uppercase tracking-wider text-xs font-semibold transition-colors">
-                Перейти в СПА
+            <div className="pt-4 flex gap-4">
+              <Link to="/spa" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-6 py-3 rounded uppercase text-[12px] font-bold transition-colors">
+                Смотреть СПА
               </Link>
             </div>
           </div>
@@ -141,8 +144,8 @@ export function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400&h=400',
-              'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1374&auto=format&fit=crop',
-              'https://images.unsplash.com/photo-1729003702131-51807464dcec?q=80&w=1470&auto=format&fit=crop',
+              'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=400&h=400',
+              'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=400&h=400',
               'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=400&h=400'
             ].map((img, i) => (
               <div key={i} className="relative aspect-square group overflow-hidden bg-gray-100 cursor-pointer">
@@ -157,7 +160,7 @@ export function HomePage() {
           </div>
 
           <div className="mt-12 text-center">
-            <a href="#" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-8 py-3 rounded-full uppercase tracking-wider text-xs font-semibold transition-colors">
+            <a href="https://instagram.com/" className="inline-block border border-charcoal text-charcoal hover:bg-charcoal hover:text-white px-8 py-3 rounded uppercase text-[12px] font-bold transition-colors">
               Смотреть Instagram
             </a>
           </div>
@@ -174,10 +177,10 @@ export function HomePage() {
               Свяжитесь с нами напрямую для получения лучших тарифов и особых условий проживания.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://wa.me/77000000000" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full uppercase tracking-widest text-sm font-semibold transition-colors shadow-lg">
+              <a href="https://wa.me/77000000000" className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded uppercase text-[13px] font-bold transition-colors shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
                 Написать в WhatsApp
               </a>
-              <a href="tel:+77000000000" className="bg-gold hover:bg-gold-hover text-white px-8 py-4 rounded-full uppercase tracking-widest text-sm font-semibold transition-colors shadow-lg">
+              <a href="tel:+77000000000" className="bg-gold hover:bg-gold-hover text-white px-8 py-4 rounded uppercase text-[13px] font-bold transition-colors shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
                 Позвонить
               </a>
             </div>

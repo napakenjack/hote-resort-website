@@ -5,19 +5,19 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
   {
-    image: 'https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1920&auto=format&fit=crop',
-    title: 'Комфортный отдых\nв сердце города',
-    subtitle: 'Современные номера, ресторан, СПА и банкетный зал для вашего идеального пребывания.',
+    image: 'https://images.unsplash.com/photo-1542314831-c6a4d14d8379?auto=format&fit=crop&q=80&w=2000&h=1000',
+    title: 'ALSUN HOTEL\nв сердце Астаны',
+    subtitle: 'Комфортные номера, кофейня и массажный кабинет для вашего идеального пребывания.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1570560258879-af7f8e1447ac?q=80&w=1374&auto=format&fit=crop',
-    title: 'Изысканная кухня\nи атмосфера',
-    subtitle: 'Попробуйте авторские блюда в нашем ресторане с панорамным видом.',
+    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2000&h=1000',
+    title: 'Свежий кофе\nкаждый день',
+    subtitle: 'Попробуйте вкусные завтраки и выпечку в нашей уютной кофейне.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=2000&h=1000',
+    image: 'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=2000&h=1000',
     title: 'Восстановление\nи релакс',
-    subtitle: 'Подарите себе удовольствие в нашем премиум СПА центре.',
+    subtitle: 'Подарите себе отдых с нашей лечебной фитобочкой и массажем.',
   }
 ];
 
