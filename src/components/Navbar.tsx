@@ -16,6 +16,17 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isOpen]);
+
+  useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
@@ -81,13 +92,17 @@ export function Navbar() {
 
       {/* Mobile Nav */}
       <div 
-        className={`fixed inset-0 bg-charcoal text-white z-40 flex flex-col pt-24 px-6 gap-6 transition-transform duration-300 ease-in-out ${
-          isOpen ? 'translate-y-0' : '-translate-y-full'
-        } md:hidden pointer-events-${isOpen ? 'auto' : 'none'}`}
+        className={`fixed inset-0 bg-charcoal text-white z-[100] flex flex-col pt-24 px-6 gap-6 transition-all duration-300 ease-in-out ${
+          isOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-full'
+        } md:hidden`}
       >
-        {/* We place the close button inside the menu to avoid clicking issues */}
-        <button className="absolute top-6 right-6" onClick={() => setIsOpen(false)}>
-           <X size={32} />
+        {/* Close button inside menu */}
+        <button 
+          className="absolute top-6 right-6 p-2 rounded-full hover:bg-white/10 transition-colors" 
+          onClick={() => setIsOpen(false)}
+          aria-label="Close menu"
+        >
+           <X size={32} strokeWidth={1} />
         </button>
         {navLinks.map((link) => (
           <Link
