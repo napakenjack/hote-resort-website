@@ -36,7 +36,9 @@ export function Navbar() {
 
   return (
     <header 
-      className="sticky top-0 w-full z-50 transition-all duration-300 bg-ivory/95 backdrop-blur-sm border-b border-sand flex items-center justify-between h-[80px] px-6 lg:px-10"
+      className={`sticky top-0 w-full z-50 transition-all duration-300 flex items-center justify-between h-[80px] px-6 lg:px-10 border-b ${
+        scrolled || isOpen ? 'bg-ivory border-sand shadow-sm' : 'bg-transparent border-transparent'
+      }`}
     >
       <div className="w-full max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
@@ -92,13 +94,13 @@ export function Navbar() {
 
       {/* Mobile Nav */}
       <div 
-        className={`fixed inset-0 bg-charcoal text-white z-[100] flex flex-col pt-24 px-6 gap-6 transition-all duration-300 ease-in-out ${
+        className={`fixed inset-0 bg-ivory text-charcoal z-[100] flex flex-col pt-24 px-6 gap-6 transition-all duration-300 ease-in-out ${
           isOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-full'
         } md:hidden`}
       >
         {/* Close button inside menu */}
         <button 
-          className="absolute top-6 right-6 p-2 rounded-full hover:bg-white/10 transition-colors" 
+          className="absolute top-6 right-6 p-2 rounded-full hover:bg-charcoal/5 transition-colors" 
           onClick={() => setIsOpen(false)}
           aria-label="Close menu"
         >
@@ -110,7 +112,7 @@ export function Navbar() {
             to={link.path}
             onClick={() => setIsOpen(false)}
             className={`text-2xl font-serif tracking-widest transition-colors ${
-              location.pathname === link.path ? 'text-gold' : 'text-white/80'
+              location.pathname === link.path ? 'text-gold' : 'text-charcoal/80'
             }`}
           >
             {link.name}
@@ -118,9 +120,9 @@ export function Navbar() {
         ))}
         
         <div className="flex items-center gap-6 mt-4">
-           <a href="https://wa.me/77000000000" aria-label="WhatsApp" className="text-white hover:text-[#25D366] transition-colors"><MessageCircle size={24} /></a>
-           <a href="https://instagram.com/" aria-label="Instagram" className="text-white hover:text-[#E1306C] transition-colors"><Instagram size={24} /></a>
-           <a href="https://facebook.com/" aria-label="Facebook" className="text-white hover:text-[#1877F2] transition-colors"><Facebook size={24} /></a>
+           <a href="https://wa.me/77000000000" aria-label="WhatsApp" className="text-charcoal hover:text-[#25D366] transition-colors"><MessageCircle size={24} /></a>
+           <a href="https://instagram.com/" aria-label="Instagram" className="text-charcoal hover:text-[#E1306C] transition-colors"><Instagram size={24} /></a>
+           <a href="https://facebook.com/" aria-label="Facebook" className="text-charcoal hover:text-[#1877F2] transition-colors"><Facebook size={24} /></a>
         </div>
 
         <Link
